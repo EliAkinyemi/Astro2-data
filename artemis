@@ -1,0 +1,243 @@
+*******************************************************************************
+ Revised: Dec 10, 2022        Artemis I / Spacecraft (Earth)              -1023
+                              https://www.nasa.gov/artemis-1
+
+ BACKGROUND:
+  NASA's 26-day unmanned Artemis I mission was a test of integrated systems to:
+
+   - launch Orion atop the SLS rocket 
+   - operate the spacecraft in a deep space environment
+   - orbit the Moon in a distant retrograde orbit before returning to Earth
+   - test Orion's heat shield at 30,000 km/hr (2760 deg. C), and 
+   - recover the crew module after reentry, descent, and splashdown
+
+ MAJOR EVENTS:
+  Launched November 16 @ 06:47:44 UTC from pad 39B at the Kennedy Space Center. 
+
+  Relative timings below may or may not be be shifted slightly due to launch 
+  being delayed 43 minutes.
+
+  launch+00h 18m 09s - Orion deploys solar arrays in Earth orbit
+        +00h 52m 56s - Perigee raise maneuver (22 second burn)
+        +01h 29m 27s - Trans-lunar injection burn (18m burn)
+        +01h 57m 36s - Orion/ICPS separation 
+        +01h 58m 58s - Upper stage separation burn
+
+  After Orion separates from the ICPS ("Interim Cryogenic Propulsion Stage"), 
+  10 small spacecraft ("CubeSats") will be deployed to perform experiments and
+  technology demonstrations. Each CubeSat provides its own propulsion and 
+  navigation.
+
+        +07h 47m 31s - Outbound Trajectory Correction-1 burn
+
+   Flight Day  02-05 - Outbound transit 
+               06-09 - Transit to Distant Retrograde Orbit (DRO) around Moon,
+                         closest lunar approach ~97 km (Day 06)
+               10-15 - In DRO
+               16-19 - Exit DRO (departure burn on Day 24)
+               20-26 - Return transit
+                  26 - Entry and splashdown (Pacific)
+
+  Splashdown off Baja California on Dec 11 at 17:40:30 UTC
+  Mission elapsed time was 25 days, 10h 54m 50s
+
+ ORION TEST DUMMIES (named by public contest)
+
+  Commander Moonikin Campos - A suited manikin will occupy the commander's seat
+   inside Orion to provide data on vibration, acceleration, and radiation that
+   crew members may experience in flight.
+ 
+  Helga and Zohar - Two additional seats in Orion will be occupied by manikin 
+   torsos manufactured from materials that mimic human bones, soft tissues, and
+   organs. The torsos will be fitted with more than 5,600 passive sensors and 
+   34 active radiation detectors.
+
+   Zohar will wear a radiation protection vest while Helga will not. The study
+   will provide data on radiation levels astronauts may encounter on lunar 
+   missions and evaluate the effectiveness of the protective vest.
+
+ SPACECRAFT DETAILS
+  SLS                
+   * Height                : 98 meters
+   * Mass at liftoff       : 2.61 million kg
+   * Thrust at liftoff     : 39.1 million Newtons
+   * Payload to the moon   : 27,000 kg
+ 
+  Orion module
+   * Crew + service mod hgt: 7.92 meters
+   * Pressurized volume    : 19.6 m^3 
+   * Mass to the Moon      : 24,000 kg
+   * Return mass at landing:  8,260 kg
+  
+ CUBESATS DISPENSED (independent missions and trajectories once released):
+  Moon
+   Lunar IceCube: Detect all forms of water & other volatiles (IR spectrometer)
+   LunaH-Map    : Higher-fidelity mapping of near-surface hydrogen in craters 
+                  and other permanently shadowed regions of the lunar South 
+                  Pole (neutron spectrometers) [UPDATE: missed maneuver]
+   LunIR        : Infrared imaging of the lunar surface [UPDATE: problems]
+   OMOTENASHI   : Lunar lander and studying the lunar environment
+                  Separate trajectory available in Horizons.
+                  [UPDATE: lunar activity cancelled, communications problems]
+
+  Radiation
+   CuSP         : Measure particles & magnetic fields (space weather station)
+   BioSentinel  : Use single-celled yeast to detect, measure and compare the 
+                  impact of deep-space radiation on living organisms over a 
+                  long period of time
+   EQUULEUS     : Image Earth's plasmasphere for a better understanding of
+                  Earth's radiation environment from Earth-Moon LaGrange 2 
+                  point ("EM-L2", object 3012 in Horizons)
+
+  Asteroid
+   NEA Scout    : Travel by solar sail to asteroid 2020 GE to image and 
+                  characterize its surface in September 2024.  Separate 
+                  trajectory available in Horizons.
+                  [UPDATE: No contact after deployment]
+
+  Technology Demonstrations
+   ArgoMoon      : Observing interim cryogenic propulsion stage with advanced 
+                   optics and software imaging system
+   Team Miles    : Demonstrating propulsion using plasma thrusters, competing 
+                   in NASA's Deep Space Derby [UPDATE: no contact after 
+                   deployment]
+
+ SPACECRAFT TRAJECTORY:
+  Post-launch reconstructed Orion trajectory from NASA/JSC navigation:
+
+  Trajectory name                              Start (TDB)    Stop (TDB)
+  ----------------------------------------- ----------------- -----------------
+  Orion_OEM_20221117_1600_V0.1              2022-Nov-16 09:03 2022-Nov-17 17:47
+  20221118_1920_EPH_OEM.V0.1                2022-Nov-17 17:47 2022-Nov-19 03:51
+  20221119_1407_V0.2                        2022-Nov-19 03:51 2022-Nov-19 18:35
+  20221120_1342_V0.1                        2022-Nov-19 18:35 2022-Nov-20 13:12
+  20221121_1411_V0.1                        2022-Nov-20 13:12 2022-Nov-21 16:58
+  20221121_1235_V0.1                        2022-Nov-21 16:58 2022-Nov-23 00:32
+  20221124_0150_V0.1                        2022-Nov-23 00:32 2022-Nov-24 01:04
+  20221125_0550_V0.1                        2022-Nov-24 01:04 2022-Nov-27 01:11
+  20221127_1156_V0.1                        2022-Nov-27 01:11 2022-Nov-28 00:09
+  20221129_1115_V0.1                        2022-Nov-28 00:09 2022-Nov-29 15:42
+  20221201_0017_V0.1                        2022-Nov-29 15:42 2022-Nov-30 16:32
+  20221201_1240_V0.1                        2022-Nov-30 16:32 2022-Dec-02 09:11
+  20221203_0000_V0.1                        2022-Dec-02 09:11 2022-Dec-03 14:52
+  20221205_0010_V0.1                        2022-Dec-03 14:52 2022-Dec-04 18:45
+  20221205_0100_V0.1                        2022-Dec-04 18:45 2022-Dec-05 19:22
+  20221206_1330_V0.2                        2022-Dec-05 19:22 2022-Dec-06 17:11
+  20221207_1334_V0.1                        2022-Dec-06 17:11 2022-Dec-07 05:11
+  20221208_0703_V0.1                        2022-Dec-07 05:11 2022-Dec-08 19:12
+  20221208_1345.V0.10                       2022-Dec-08 19:12 2022-Dec-10 01:34
+  20221210_2304.V0.1                        2022-Dec-10 01:34 2022-Dec-11 17:19
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Mon Mar  6 08:57:02 2023 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Artemis I (spacecraft) (-1023)  {source: Artemis_I_merged}
+Center body name: Earth-Moon Barycenter (3)       {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2022-Nov-17 00:00:00.0000 TDB
+Stop  time      : A.D. 2022-Dec-11 00:00:00.0000 TDB
+Step-size       : 1440 minutes
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 1 (position only)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,
+**************************************************************************************************************************
+$$SOE
+2459900.500000000, A.D. 2022-Nov-17 00:00:00.0000, -1.471091579561849E+05, -3.177023721783915E+04,  1.021968851870427E+04,
+2459901.500000000, A.D. 2022-Nov-18 00:00:00.0000, -2.444907005264654E+05, -8.743854636533397E+04,  1.262186718209675E+04,
+2459902.500000000, A.D. 2022-Nov-19 00:00:00.0000, -2.979386842481442E+05, -1.282631720402172E+05,  1.264706592622466E+04,
+2459903.500000000, A.D. 2022-Nov-20 00:00:00.0000, -3.258479531459389E+05, -1.574425786515319E+05,  1.161369661439965E+04,
+2459904.500000000, A.D. 2022-Nov-21 00:00:00.0000, -3.347058381245866E+05, -1.745580185293969E+05,  1.006918759370430E+04,
+2459905.500000000, A.D. 2022-Nov-22 00:00:00.0000, -2.791254347802267E+05, -2.056911399531841E+05,  3.498065944244518E+03,
+2459906.500000000, A.D. 2022-Nov-23 00:00:00.0000, -1.857297571803536E+05, -2.815701830442070E+05, -7.502097027992946E+03,
+2459907.500000000, A.D. 2022-Nov-24 00:00:00.0000, -8.924460734329047E+04, -3.349514066649260E+05, -1.712572220649518E+04,
+2459908.500000000, A.D. 2022-Nov-25 00:00:00.0000,  7.971832709051866E+03, -3.644686644994263E+05, -2.487487181108692E+04,
+2459909.500000000, A.D. 2022-Nov-26 00:00:00.0000,  1.002699739758844E+05, -3.725620697488479E+05, -3.132113908332346E+04,
+2459910.500000000, A.D. 2022-Nov-27 00:00:00.0000,  1.796606457176482E+05, -3.692108632379532E+05, -3.605681533570116E+04,
+2459911.500000000, A.D. 2022-Nov-28 00:00:00.0000,  2.466401940764668E+05, -3.488622756416217E+05, -3.887062261755225E+04,
+2459912.500000000, A.D. 2022-Nov-29 00:00:00.0000,  2.990311059450748E+05, -3.120559205548849E+05, -3.965099266366407E+04,
+2459913.500000000, A.D. 2022-Nov-30 00:00:00.0000,  3.364456008623739E+05, -2.585039453540088E+05, -3.835692760003346E+04,
+2459914.500000000, A.D. 2022-Dec-01 00:00:00.0000,  3.591496363894005E+05, -1.892313392168149E+05, -3.508884237654180E+04,
+2459915.500000000, A.D. 2022-Dec-02 00:00:00.0000,  3.672430887234501E+05, -1.057921202382674E+05, -2.994026666803969E+04,
+2459916.500000000, A.D. 2022-Dec-03 00:00:00.0000,  3.676075151299991E+05, -1.259752083807488E+04, -2.268346421490746E+04,
+2459917.500000000, A.D. 2022-Dec-04 00:00:00.0000,  3.470350589441216E+05,  8.699283695284140E+04, -1.384076503789881E+04,
+2459918.500000000, A.D. 2022-Dec-05 00:00:00.0000,  3.054371337920436E+05,  1.905828079642784E+05, -3.867339468073042E+03,
+2459919.500000000, A.D. 2022-Dec-06 00:00:00.0000,  2.845325733315298E+05,  2.752344644223878E+05, -5.449961087058793E+03,
+2459920.500000000, A.D. 2022-Dec-07 00:00:00.0000,  2.894799977868407E+05,  2.678510027788303E+05, -2.132713445430688E+04,
+2459921.500000000, A.D. 2022-Dec-08 00:00:00.0000,  2.783230829943527E+05,  2.496264993199932E+05, -3.545087383087923E+04,
+2459922.500000000, A.D. 2022-Dec-09 00:00:00.0000,  2.511234575834387E+05,  2.180954780079332E+05, -4.736007467608752E+04,
+2459923.500000000, A.D. 2022-Dec-10 00:00:00.0000,  2.039291975956793E+05,  1.696449205037239E+05, -5.536896507397506E+04,
+2459924.500000000, A.D. 2022-Dec-11 00:00:00.0000,  1.245236649385526E+05,  9.427599314291278E+04, -5.403012519336483E+04,
+$$EOE
+**************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
